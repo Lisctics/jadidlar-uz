@@ -20,7 +20,7 @@ export default function Useful() {
   }, []);
   //
   return (
-    <div className='useful grid !grid-cols-1 lg:grid-cols-3 md:!grid-cols-2'>
+    <div className='useful grid !grid-cols-1 md:!gap-x-10 lg:!grid-cols-3 lg:!gap-x-5 md:!grid-cols-2'>
       {apiData ?.results.map((item)=>
         <div key={item.id} className='Father mr-20 !w-96 lg:!w-450' id={item.id == 2? "div_left" : item.id == 4? "div_left" : ""}>
           <img src={item.logo_image} className='Logo' alt="" />
