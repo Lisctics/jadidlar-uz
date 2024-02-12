@@ -20,7 +20,7 @@ function Asarlar() {
     return(
         <>
             <h1 className="tab_menu_h1 mt-0 pt-20">Asarlar</h1>
-            <div className="div_cont">
+            <div className="div_cont ">
             {apiData ? (
                         apiData?.results?.length > 0 ? ( 
                           apiData?.results.map((item) => (
