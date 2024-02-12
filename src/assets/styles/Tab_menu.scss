@@ -1,0 +1,43 @@
+.kor-esht-oqi-text{
+    font-size: 40px;
+    color: rgb(0, 0, 109);
+    padding-left: 50px;
+}
+.tab_menu_h1{
+    font-family: Roboto Slab;
+    color: #133654;
+    // font-size: 30px;
+}
+.logo_navbar{
+        margin-top: 100px;
+        z-index: 600;
+}
+.TABlar{
+    display: flex;
+    gap: 50px;
+    margin-left: 50px;
+    font-family: Roboto Slab;
+    list-style-type: none;
+    border-bottom: 1px solid rgb(163, 163, 163);
+    li{
+        cursor: pointer;
+        font-size: 18px;
+        display: inline-block;
+        width: 5%;
+        padding: 15px;
+        margin: 0;
+        text-decoration: none;
+        color: #133654;
+    }
+    .MAin{
+        color: red;
+        position: relative;
+        display: inline-block;
+        text-decoration: none;
+        border-bottom: 5px solid red;
+    }
+    
+
+    
+}
+

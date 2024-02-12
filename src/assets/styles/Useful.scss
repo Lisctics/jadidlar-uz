@@ -1,0 +1,107 @@
+.Father {
+    width: 450px;
+    height: 164px;
+    background-color: #F1F3F5;
+    border-radius: 3px;
+    margin: 20px;
+}
+
+.useful {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    display: grid;
+}
+
+.Logo {
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    margin-top: 30px;
+    margin-left: 30px;
+    border-radius: 3px;
+}
+
+.title {
+    color: #133654;
+    width: 280px;
+    margin-left: 160px;
+    margin-top: -100px;
+    margin-bottom: 10px;
+}
+
+.Link {
+    color: #89001A;
+    margin-left: 160px;
+}
+
+// .grandFather {
+//     margin-top: 30px;
+//     width: 1519px;
+// }
+// .grandFather2 {
+//     margin: 0;
+//     padding: 0;
+//     margin-right: 5px;
+//     margin-top: 15px;
+// }
+// @media only screen and (max-width: 1500px) {
+//     // .grandFather2 {
+//     //     display: flex;
+//     //     flex-direction: column;
+//     // }
+//     .grandFather {
+//         display: grid;
+//         width: 1200px;
+//     }
+//     .Father {
+//         width: 400px;
+//     }
+// }
+
+// @media only screen and (max-width: 1400px) {
+//     .useful {
+//         column-gap: 30px;
+//     }
+// }
+// @media only screen and (max-width: 1350px) {
+//     .useful {
+//         column-gap: 100px;
+//     }
+// }
+// @media only screen and (max-width: 1275px) {
+//     .useful {
+//         column-gap: 150px;
+//     }
+// }
+// @media only screen and (max-width: 1220px) {
+//     .useful {
+//         column-gap: 220px;
+//     }
+// }
+// @media only screen and (max-width: 1150px) {
+//     .useful {
+//         column-gap: 300px;
+//     }
+// }
+// @media only screen and (max-width: 1080px) {
+//     .useful {
+//         column-gap: 380px;
+//     }
+// }
+// @media only screen and (max-width: 1010px) {
+//     .useful {
+//         column-gap: 445px;
+//     }
+// }
+// @media only screen and (max-width: 950px) {
+//     .useful {
+//         column-gap: 480px;
+//     }
+// }
+// @media only screen and (max-width: 365px) {
+//     .useful {
+//         grid-template-columns: auto auto;
+//     }
+//     #div_left {
+//         margin-left: -350px;
+//     }
+// }

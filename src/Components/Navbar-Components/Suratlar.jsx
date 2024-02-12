@@ -1,0 +1,42 @@
+import React, { useEffect, useState } from 'react'
+import { DataService } from '../../config/DataService';
+import { endpoints } from '../../config/endpoints';
+import Uneversal_search_tab from "../Uneversal_search_tab"
+import CardUneversal_2 from '../Components/CardUneversal_2';
+import SmallSpinner from '../Components/SmallSpinner';
+
+export default function Suratlar() {
+    const [apiData, setApiData] = useState();
+  const [load, setLoad] = useState(true);
+  const fetchData = async () => {
+      const response = await DataService.get(endpoints.photos);
+    setLoad(!load)
+    console.log(response)
+      setApiData(response);
+    };
+    useEffect   (() => {
+      fetchData();
+    }, []);
+  return (
+    <div className='pt-0'>
+      <h1 className='tab_menu_h1'>Suratlar</h1>
+    <div className='flex gap-10'>
+         {apiData ? (
+                        apiData?.results?.length > 0 ? ( 
+                          apiData ?.results.map((item)=>
+                        <CardUneversal_2 id={item.id} image={item.image} title={item.title}/>
+                            )
+                        ) : (
+                            <Nothing_box/> 
+                        )
+                    ): 
+                     (
+                        <div className="">
+                          <SmallSpinner/>
+                        </div>
+                    ) 
+                   }
+    </div>
+    </div>
+  )
+}

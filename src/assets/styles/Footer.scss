@@ -1,0 +1,88 @@
+.footer_h1 {
+  color: white;
+  font-family: 'Mulish', sans-serif;
+  font-size: 27px;
+  font-weight: 700;
+  padding-top: 15px;
+  padding-left: 150px;
+}
+
+.footer_contacts {
+  display: flex;
+  color: white;
+}
+
+.footer_p {
+  margin-left: 250px;
+  margin-top: -35px;
+  border-bottom: 3px solid white;
+  height: 35px;
+}
+
+.instagram {
+  height: 20px;
+  width: 20px;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+
+.telegram {
+  height: 20px;
+  width: 20px;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+
+.father_footer {
+  background-color: #263b69;
+  position: absolute;
+  margin-left: 1125px;
+  margin-top: 15px;
+  border-radius: 30px;
+  height: 50px;
+  width: 50px;
+}
+
+.ff2 {
+  margin-left: 1040px;
+}
+
+.footer_hr {
+  margin-top: 100px;
+  width: 95%;
+}
+
+.footer_p2 {
+  color: white;
+  font-family: 'Mulish', sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  display: flex;
+  margin-left: 150px;
+}
+
+.footer_p3 {
+  color: white;
+  font-family: 'Mulish', sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  display: flex;
+  margin-left: 1000px;
+  margin-top: -23px;
+}
+
+.footer {
+  width: 94.9rem;
+}
+
+// @media only screen and (max-width: 1500px) {
+//   .footer {
+//     width: 93.4rem;
+//   }
+// }
+
+// @media only screen and (max-width: 370px) {
+//   .footer {
+//     width: 89.5rem;
+//   }
+// }

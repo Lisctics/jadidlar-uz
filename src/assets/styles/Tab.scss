@@ -1,0 +1,97 @@
+.tabs_cont {
+    font-family: 'Lucida Sans', sans-serif;
+    font-size: 20px;
+}
+    .uls {
+        display: flex;
+        background-color: RGB(255, 255, 255);
+        .uls_li{
+            padding: 0.5em;
+            text-decoration: none;
+            list-style: none;
+            background-color: RGB(255, 255, 255);
+            border: 1px solid white;
+            font: inherit;
+            margin-left: 15px;
+        }
+    }
+
+    
+    .active_tab{
+        color: red;
+        border-bottom: 3px solid red;
+    }
+    // hr{
+    //     margin-top: -20px;
+    // }
+    .perviy{
+        width: 295px;
+        height: 430px;
+        border-radius: 10px;
+    }
+    .vtoroy{
+        width: 295px;
+        border-radius: 10px;
+        height: 430px;
+    }
+    .tretiy{
+        width: 295px;
+        border-radius: 10px;
+        height: 430px;
+    }
+    .chetvr{
+        width: 295px;
+        border-radius: 10px;
+        height: 430px;
+    }
+    .pyatiy{
+        width: 100%;
+        height: 430px;
+        border-radius: 10px;
+    }
+    .conten{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-self: center;
+        text-align: center;
+        
+    }
+    .div1{
+        background-color: rgb(213,220,225);
+        height: 530px;
+        margin-left: 5px;
+        border-radius: 10px;
+    }
+    .div2{
+        background-color: rgb(213,220,225);
+        height: 530px;
+        border-radius: 10px;
+        margin-left: 25px;
+    }.div3{
+        background-color: rgb(213,220,225);
+        margin-left: 25px;
+        border-radius: 10px;
+        height: 530px;
+    }.div4{
+        background-color: rgb(213,220,225);
+        margin-left: 25px;
+        border-radius: 10px;
+        height: 530px;
+    }
+    
+    .Tab_cont_p{
+        padding: 5px;
+        padding-left: 10px;
+        color: rgb(30, 30, 83);
+        font-family: 'Courier New', Courier, monospace;
+    }
+    .Tab_cont_h4{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: grey;
+        margin-top: 50px;
+        margin-left: 10px;
+    }
+    .Tab_cont_hr{
+        margin-top: 50px;
+    }

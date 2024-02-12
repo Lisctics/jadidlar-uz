@@ -1,0 +1,112 @@
+.card-item {
+    height: 477px;
+    width: 294px;
+    margin-top: 5px;
+    margin-bottom: 35px;
+    color: #133654;
+}
+
+.card-item_img {
+    height: 367px;
+    width: 294px;
+    object-fit: cover;
+}
+
+.card-item_title {
+    margin-top: 5px;
+    text-align: left;
+    margin-left: -5px;
+    padding-left: 15px;
+    // width: 10px;
+    font-size: 16px !important;
+    font-weight: 700;
+    display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      text-overflow: ellipsis;
+      overflow: hidden;
+}
+// ================== {2-chiniki} ==================
+
+.card-item_img_2 {
+    height: 367px;
+    width: 294px;
+    margin-top: 110px;
+    position: absolute;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    object-fit: cover;
+}
+.card-item_h1_2 {
+    padding-top: 10px;
+    position: absolute;
+    width: 294px;
+    text-align: left;
+    padding-left: 15px;    font-size: 18px;
+    font-weight: 700;
+}
+
+#Ha {
+    margin-left: 35px;
+}
+
+.ddd {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.card-item_2:hover {
+    background-color: #89001A;
+    color: white !important;
+}
+
+.card-cont_3 {
+    height: 477px !important;
+    width: 294px !important;
+    margin-top: 5px;
+    margin-bottom: 35px;
+    overflow: hidden;
+    color: #133654;
+}
+
+.card-item_3:hover {
+    background-color: #89001A;
+    color: white !important;
+}
+.card-item_3:hover img {
+    transform: scale(1.1);
+}
+
+
+.card-item_3 {
+    height: 407px !important;
+    width: 400px !important;
+    margin-top: 5px;
+    margin-bottom: 35px;
+    overflow: hidden;
+    color: #133654;
+    background-color: #F1F3F5;
+    border-radius: 5px;
+}
+
+.card-item_img_3 {
+    height: 287px !important;
+    transition: transform 1s;
+    width: 400px !important;
+    object-fit: cover;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.aaa {
+    margin-left: 12px;
+}
+
+.card-item_title_3 {
+    margin-top: 15px;
+    text-align: left;
+    margin-left: -5px;
+    padding-left: 15px;
+    font-size: 16px !important;
+    font-weight: 700;
+}

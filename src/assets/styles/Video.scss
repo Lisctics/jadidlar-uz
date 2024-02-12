@@ -1,0 +1,28 @@
+.vid_rasm{
+    height: 500px;
+    margin: 30px;
+    background: #13365499;
+}
+.btn_vid_rasm{
+    width: 64px;
+    height: 64px;
+    border-radius: 50px;
+    position: absolute;
+    margin-left: -500px;
+    margin-top: 270px;
+    .svg_vid_rasm{
+        height: 21px;
+        width: 18px;
+        margin: 0px 0px 0px 2px;
+        color: rgb(120, 0, 0);
+    }
+} .btn_vid_rasm:hover{
+    // background-color: rgb(137 0 26/var(--tw-text-opacity));;
+    background-color: rgb(120, 0, 0);
+    .svg_vid_rasm{
+        color: white;
+    }
+}
+.videos_{
+    display: flex;
+}
