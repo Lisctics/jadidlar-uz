@@ -4,7 +4,7 @@ export default function Tab({tablist, onChange, active}) {
     
   return (
     <div>
-        <div className="tabs_cont overflow-scroll mt-7 ml-5">
+        <div className="tabs_cont jjj mt-7 ml-5">
     <ul className='uls'>
       {tablist.map((tab) => (
         <li 

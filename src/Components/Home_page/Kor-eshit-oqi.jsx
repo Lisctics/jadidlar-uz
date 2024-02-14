@@ -34,7 +34,7 @@ export default function Kor_esht_oqi() {
               className={tab.id == activeTab ? "MAin" : ""}
               onClick={()=> onChangeTab(tab.id)}>
                 {tab.title}
-              </li>
+              </li> 
             ))}
             
         </Tab2>
