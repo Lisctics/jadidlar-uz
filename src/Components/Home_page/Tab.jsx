@@ -5,6 +5,7 @@ export default function Tab({tablist, onChange, active}) {
   return (
     <div>
         <div className="tabs_cont jjj mt-7 ml-5">
+        <div className="tabs_cont mt-7 ml-5">
     <ul className='uls'>
       {tablist.map((tab) => (
         <li 
@@ -18,6 +19,7 @@ export default function Tab({tablist, onChange, active}) {
       ))}
       </ul>  
       
+</div>
 </div>
     </div>
   )
