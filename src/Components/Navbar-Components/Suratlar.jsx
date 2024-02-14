@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { DataService } from '../../config/DataService';
 import { endpoints } from '../../config/endpoints';
 import Uneversal_search_tab from "../Uneversal_search_tab"
-import CardUneversal_2 from '../Components/CardUneversal_2';
+import CardUneversal_1 from '../Components/CardUneversal_1';
 import SmallSpinner from '../Components/SmallSpinner';
 
 export default function Suratlar() {
@@ -20,11 +20,11 @@ export default function Suratlar() {
   return (
     <div className='pt-0'>
       <h1 className='tab_menu_h1'>Suratlar</h1>
-    <div className='flex gap-10'>
+    <div className='div_cont'>
          {apiData ? (
                         apiData?.results?.length > 0 ? ( 
                           apiData ?.results.map((item)=>
-                        <CardUneversal_2 id={item.id} image={item.image} title={item.title}/>
+                        <CardUneversal_1 id={item.id} image={item.image} title={item.title}/>
                             )
                         ) : (
                             <Nothing_box/> 

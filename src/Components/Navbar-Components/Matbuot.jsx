@@ -23,7 +23,7 @@ export default function Matbuot() {
   return (
     <div className='pt-0'>
          <h1 className='tab_menu_h1'>Matbuot</h1>
-            <div className='grid grid-cols-4 gap-16 m-10' >
+            <div className='div_cont' >
                         {apiData ? (
                         apiData?.results?.length > 0 ? ( 
                           apiData ?.results.map((item)=>

@@ -19,7 +19,7 @@ export default function Arxiv_hujjatlar() {
   return (
     <div className='pt-0'>
          <h1 className='tab_menu_h1'>Arxiv hujjatlar</h1>
-         <div className=' gap-16 m-10 !grid !grid-cols-3 !ml-2 !gap-x-10  lg:!gap-x-10 lg:!grid-cols-4 md:!gap-x-0 md:!grid-cols-4' >
+         <div className='div_cont' >
         {apiData ? (
                         apiData?.results?.length > 0 ? ( 
                           apiData ?.results.map((item)=>
