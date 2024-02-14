@@ -43,7 +43,7 @@ export default function Rasim_tab() {
           },
         }}
         modules={[Pagination]}
-        className="mySwiper grid grid-cols-4 mb-10 mt-10 "
+        className="mySwiper grid grid-cols-4 mb-10 mt-10 !ml-10 "
       >
         {apiData ?.results.map((item)=>
           <SwiperSlide className='mb-16' key={item.id}>

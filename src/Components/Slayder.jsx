@@ -25,11 +25,11 @@ export default function Slayder() {
           centeredSlides={true}
           autoplay={{delay: 3500, disableOnInteraction: false, }} navigation={true} modules={[Autoplay,Navigation]}>
           {apiData?.results.map((item, idx)=>
-            <SwiperSlide className='Slayd' key={item.id}>
+            <SwiperSlide className='Slayd !h-96 lg:!h-720' key={item.id}>
               <h1 className={`h1_` + (idx + 1)}>{item.text}</h1>
               <p className={`p_` + (idx + 1)}>{item.title}</p>
               <button className='btn_1'><a href={item.citations}>Batafsil</a></button>
-              <img src={item.image} className='w-full' />
+              <img src={item.image} className='w-full object-cover' />
             </SwiperSlide>
           )}
       </Swiper>
