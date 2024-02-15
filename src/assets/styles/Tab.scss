@@ -15,6 +15,9 @@
             margin-left: 15px;
         }
     }
+    .uls::-webkit-scrollbar{
+        width: 0;
+    }
 
     
     .active_tab{

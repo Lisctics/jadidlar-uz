@@ -34,7 +34,7 @@ export default function Video_tab() {
           {/* </div> */}
         
       </div>
-      
+      <hr className='w-full  bg-gray-500' />
       
         {/* <img className='h-96 m-7' src={Vid_rasm} alt="" />
 <button type="button" class="w-16 h-16 rounded-full absolute -my-36 bg-white mx-80">

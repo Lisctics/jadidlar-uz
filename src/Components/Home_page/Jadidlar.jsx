@@ -18,7 +18,7 @@ export default function App() {
   //
   return (
     <>
-    {/* <h1 className='tab_menu_h1'>Jadidlar</h1> */}
+    <h1 className='tab_menu_h1 !mt-20 !ml-10'>Jadidlar</h1>
 
       <Swiper
         slidesPerView={1}

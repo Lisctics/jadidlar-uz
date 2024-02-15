@@ -10,14 +10,14 @@ export default function Header() {
                 
             <nav className="navbar !w-full lg:!w-full " id='to_top'>
                     <div className="navbar-container container">
-                        <input type="checkbox" name="" id="" />
+                        <input type="checkbox" className='!bg-red-600 z-2000' name="" id="" />
                         <div className="hamburger-lines">
                             <span className="line line1"></span>
                             <span className="line line2"></span>
                             <span className="line line3"></span>
                         </div>
                         <ul className="menu-items">
-                            <li><Link to="/jadidlar">JADIDLAR</Link></li>
+                            <li className='navbar-jadid'><Link to="/jadidlar">JADIDLAR</Link></li>
                             <li className="dropdown">
                                 <button className="dropdown-button button_nav">TIL VA IMLO</button>
                                 <div className="dropdown-content">
@@ -69,7 +69,9 @@ export default function Header() {
                             </li>
                             <li><a href="/Foydalanuvchiga">FOYDALANUVCHIGA</a></li>
                             <li><a href="/Bizhaqimizda">BIZ HAQIMIZDA</a></li>
-                            <button onClick={()=> setSearchVisble(!searchVisble)} style={{ marginLeft: 20 }} className='searcher !z-30'><i style={{ color: '#ffffff' }} className="fa-solid fa-magnifying-glass"></i></button>
+                            <div className='btn_search'>
+                            <motion.button initial={{x:0}}  animate={{x:0}} 
+                            onClick={()=> setSearchVisble(!searchVisble)} style={{ marginLeft: 20 }} className='searcher !z-30'><i style={{ color: '#ffffff' }} className="fa-solid fa-magnifying-glass"></i></motion.button>
                             {
                                 searchVisble && (
                                     <motion.div 
@@ -82,6 +84,7 @@ export default function Header() {
                                     </motion.div>
                                 )
                             }
+                            </div>
                         </ul>
                         <Link to='/'><h1 className="logo">JADIDLAR</h1></Link>
                     </div>

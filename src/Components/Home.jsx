@@ -13,8 +13,8 @@ export class Home extends Component {
     return (
       <>
       <Slayder/>
-      <Tab/>
       <Jadidlar />
+      <Tab/>
       <Back_to_top />
       <Kor_esht_oqi/>
       <Useful/>

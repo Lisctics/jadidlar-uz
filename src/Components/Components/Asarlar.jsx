@@ -41,6 +41,7 @@ function Asarlar() {
                     ) 
                    }
            </div>
+           <hr className='w-full  bg-gray-500' />
         </>
     )
 }
