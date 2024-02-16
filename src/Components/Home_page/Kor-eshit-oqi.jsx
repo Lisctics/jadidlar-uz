@@ -31,7 +31,7 @@ export default function Kor_esht_oqi() {
         <Tab2>
         {tablist.map((tab) =>(
               <li key={tab.id}
-              className={tab.id == activeTab ? "MAin" : ""}
+              className={tab.id == activeTab ? "MAin !pl-0" : "!pl-0"}
               onClick={()=> onChangeTab(tab.id)}>
                 {tab.title}
               </li> 
@@ -39,7 +39,7 @@ export default function Kor_esht_oqi() {
             
         </Tab2>
         {activePanel()}
-        <hr />
+        <hr className='w-full  bg-gray-500' />
     </div>
   )
 }

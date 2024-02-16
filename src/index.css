@@ -2,10 +2,3 @@
 @tailwind components;
 @tailwind utilities;
 
-
-.scroll_bar::-webkit-scrollbar-track{
-    width: 0;
-}
-.scroll_bar::-webkit-scrollbar-track{
-    width: 0;
-}

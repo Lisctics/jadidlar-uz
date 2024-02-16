@@ -24,7 +24,7 @@ export default function Jadidlarpg() {
               <div style={{paddingTop: "100px"}} className={load == true ? 'block z-200' : "hidden"}>
               <SmallSpinner/>
             </div>
-    <div className='!grid !grid-cols-2 lg:!grid-cols-3 !gap-x-80 md:!gap-x-4'>
+    <div className='!grid !grid-cols-2 lg:!grid-cols-3  sm:!gap-x-4'>
         {apiData?.results.map((item)=>
         <CardUneversal  id={item.id} image={item.image} title={item.fullname} yil1={item.birthday} yil2={item.die_day}/>
          )}
