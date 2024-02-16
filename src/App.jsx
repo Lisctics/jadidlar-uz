@@ -26,7 +26,7 @@ export default function App() {
     <>
       <Routes>
         <Route path='/' Component={Layout}>
-          <Route path='/' Component={Home}/>
+          <Route path='/jadidlar-uz' Component={Home}/>
           <Route path='/koruvlar' Component={Koruvlar}/>
           <Route path='/jadidlar' Component={Jadidlarpg}/>
           <Route path='/suratlar' Component={Suratlar}/>

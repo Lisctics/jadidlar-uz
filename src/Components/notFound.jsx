@@ -19,7 +19,7 @@ function notFound() {
         <h1 className="pnf_h1">SAHIFA TOPILMADI!</h1>
         <p className="pnf_p"> Siz qidirayotgan sahifa oʻchirilgan<br/>
           yoki vaqtincha mavjud emas</p>
-      <Link to="/"><button class="home-btn"><FaHome className="Home"/>UYGA QAYTISH</button></Link>
+      <Link to="/jadidlar-uz"><button class="home-btn"><FaHome className="Home"/>UYGA QAYTISH</button></Link>
     </div>
     )
 }

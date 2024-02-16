@@ -86,7 +86,7 @@ export default function Header() {
                             }
                             </div>
                         </ul>
-                        <Link to='/'><h1 className="logo">JADIDLAR</h1></Link>
+                        <Link to='/jadidlar-uz'><h1 className="logo">JADIDLAR</h1></Link>
                     </div>
                 </nav>
             </div>
