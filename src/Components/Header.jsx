@@ -21,54 +21,54 @@ export default function Header() {
                             <li className="dropdown">
                                 <button className="dropdown-button button_nav">TIL VA IMLO</button>
                                 <div className="dropdown-content">
-                                    <Link to="/til_imlo/asarlar">Asarlar</Link>
-                                    <Link to="/til_imlo/maqolalar">Maqolalar</Link>
-                                    <Link to="/til_imlo/hikmatlar">Hikmatlar</Link>
+                                    <Link to="jadidlar-uz/til_imlo/asarlar">Asarlar</Link>
+                                    <Link to="jadidlar-uz/til_imlo/maqolalar">Maqolalar</Link>
+                                    <Link to="jadidlar-uz/til_imlo/hikmatlar">Hikmatlar</Link>
                                     </div>
                                 </li>
                                 <li className="dropdown">
                                 <button className="dropdown-button">MANBALAR</button>
                                 <div className="dropdown-content">
-                                    <Link to="/manbalar/arxiv_hujjatlar" count="1">Arxiv hujjatlari</Link>
-                                    <Link to="/manbalar/matbuot" count="2">Matbuot</Link>
-                                    <Link to="/manbalar/suratlar" count="3">Suratlar</Link>
-                                    <Link to="/manbalar/ko'ruvlar" count="4">Ko'ruvlar</Link>
-                                    <Link to="/manbalar/eshituvlar" count="5">Eshituvlar</Link>
+                                    <Link to="jadidlar-uz/manbalar/arxiv_hujjatlar" count="1">Arxiv hujjatlari</Link>
+                                    <Link to="jadidlar-uz/manbalar/matbuot" count="2">Matbuot</Link>
+                                    <Link to="jadidlar-uz/manbalar/suratlar" count="3">Suratlar</Link>
+                                    <Link to="jadidlar-uz/manbalar/ko'ruvlar" count="4">Ko'ruvlar</Link>
+                                    <Link to="jadidlar-uz/manbalar/eshituvlar" count="5">Eshituvlar</Link>
                                 </div>
                             </li>
                             <li className="dropdown">
 
                                 <button className="dropdown-button">IZLANISHLAR</button>
                                 <div className="dropdown-content">
-                                    <Link to="/izlanishlar/asarlar" count="1">Asarlar</Link>
-                                    <Link to="/izlanishlar/maqolalar" count="2">Maqolalar</Link>
-                                    <Link to="/izlanishlar/disertatsiyalar" count="3">Dissertatsiyalar</Link>
-                                    <Link to="/izlanishlar/esdaliklar" count="4">Estaliklar</Link>
+                                    <Link to="jadidlar-uz/izlanishlar/asarlar" count="1">Asarlar</Link>
+                                    <Link to="jadidlar-uz/izlanishlar/maqolalar" count="2">Maqolalar</Link>
+                                    <Link to="jadidlar-uz/izlanishlar/disertatsiyalar" count="3">Dissertatsiyalar</Link>
+                                    <Link to="jadidlar-uz/izlanishlar/esdaliklar" count="4">Estaliklar</Link>
                                     {/* <a href="#">Eshituvlar</a> */}
                                 </div>
                             </li>
                             <li className="dropdown">
                                 <button className="dropdown-button button_nav">TURKISTON MUXTORIYATI</button>
                                 <div className="dropdown-content">
-                                    <Link to="/turkiston_muxtoriyati/asarlar">Asarlar</Link>
-                                    <Link to="/turkiston_muxtoriyati/maqolalar">Maqolalar</Link>
-                                    <Link to="/turkiston_muxtoriyati/sherlar">Sherlar</Link>
-                                    <Link to="/turkiston_muxtoriyati/esdaliklar">Esdaliklar</Link>
+                                    <Link to="jadidlar-uz/turkiston_muxtoriyati/asarlar">Asarlar</Link>
+                                    <Link to="jadidlar-uz/turkiston_muxtoriyati/maqolalar">Maqolalar</Link>
+                                    <Link to="jadidlar-uz/turkiston_muxtoriyati/sherlar">Sherlar</Link>
+                                    <Link to="jadidlar-uz/turkiston_muxtoriyati/esdaliklar">Esdaliklar</Link>
                                     {/* <a href="#">Eshituvlar</a> */}
                                 </div>
                             </li>
                             <li className="dropdown">
                                 <button className="dropdown-button">VOQEALAR</button>
                                 <div className="dropdown-content">
-                                    <Link to="/voqealar/yangiliklar">Yangiliklar</Link>
-                                    <Link to="/voqealar/yiginlar">Yig'inlar</Link>
-                                    <Link to="/voqealar/seminarlar">Seminarlar</Link>
+                                    <Link to="jadidlar-uz/voqealar/yangiliklar">Yangiliklar</Link>
+                                    <Link to="jadidlar-uz/voqealar/yiginlar">Yig'inlar</Link>
+                                    <Link to="jadidlar-uz/voqealar/seminarlar">Seminarlar</Link>
                                     {/* <a href="#">Estaliklar</a> */}
                                     {/* <a href="#">Eshituvlar</a> */}
                                 </div>
                             </li>
-                            <li><a href="/Foydalanuvchiga">FOYDALANUVCHIGA</a></li>
-                            <li><a href="/Bizhaqimizda">BIZ HAQIMIZDA</a></li>
+                            <li><Link to="jadidlar-uz/Foydalanuvchiga">FOYDALANUVCHIGA</Link></li>
+                            <li><Link to="jadidlar-uz/Bizhaqimizda">BIZ HAQIMIZDA</Link></li>
                             <div className='btn_search'>
                             <motion.button initial={{x:0}}  animate={{x:0}} 
                             onClick={()=> setSearchVisble(!searchVisble)} style={{ marginLeft: 20 }} className='searcher !z-30'><i style={{ color: '#ffffff' }} className="fa-solid fa-magnifying-glass"></i></motion.button>

@@ -27,27 +27,27 @@ export default function App() {
       <Routes>
         <Route path='/' Component={Layout}>
           <Route path='/jadidlar-uz' Component={Home}/>
-          <Route path='/koruvlar' Component={Koruvlar}/>
-          <Route path='/jadidlar' Component={Jadidlarpg}/>
-          <Route path='/suratlar' Component={Suratlar}/>
-          <Route path='/izlanishlar' Component={Izlanishlar} />
-          <Route path='/izlanishlar/:tab' Component={Izlanishlar} />
-          <Route path='/manbalar' Component={Manbalar}/>
-          <Route path='/manbalar/:tab' Component={Manbalar}/>
-          <Route path='/sherlar' Component={Sherlar}/>
-          <Route path='/bittajadid/:id' Component={bittajadid}/>
-          <Route path='*' Component={notFound} />
-          <Route path='/Foydalanuvchiga' Component={Foydalanuvchiga}/>
-          <Route path='/Bizhaqimizda' Component={Bizhaqimizda}/>
-          <Route path='/Navbar_Asr' Component={Navbar_Asr}/>
-          <Route path='/Navbar_Maq' Component={Navbar_Maq}/>
-          <Route path='/Navbar_Hik' Component={Nav_Hik}/>
-          <Route path='/til_imlo/:tab' Component={til_imlo} />
-          <Route path='/turkiston_muxtoriyati/:tab' Component={turkiston_muxtoriyati}/>
-          <Route path='/yangiliklar' Component={yangiliklar}/>
-          <Route path='/seminarlar' Component={seminarlar}/>
-          <Route path='/yiginlar' Component={yiginlar}/>
-          <Route path='/voqealar/:tab' Component={Voqealar}/>
+          <Route path='jadidlar-uz/koruvlar' Component={Koruvlar}/>
+          <Route path='jadidlar-uz/jadidlar' Component={Jadidlarpg}/>
+          <Route path='jadidlar-uz/suratlar' Component={Suratlar}/>
+          <Route path='jadidlar-uz/izlanishlar' Component={Izlanishlar} />
+          <Route path='jadidlar-uz/izlanishlar/:tab' Component={Izlanishlar} />
+          <Route path='jadidlar-uz/manbalar' Component={Manbalar}/>
+          <Route path='jadidlar-uz/manbalar/:tab' Component={Manbalar}/>
+          <Route path='jadidlar-uz/sherlar' Component={Sherlar}/>
+          <Route path='jadidlar-uz/bittajadid/:id' Component={bittajadid}/>
+          <Route path='jadidlar-uz*' Component={notFound} />
+          <Route path='jadidlar-uz/Foydalanuvchiga' Component={Foydalanuvchiga}/>
+          <Route path='jadidlar-uz/Bizhaqimizda' Component={Bizhaqimizda}/>
+          <Route path='jadidlar-uz/Navbar_Asr' Component={Navbar_Asr}/>
+          <Route path='jadidlar-uz/Navbar_Maq' Component={Navbar_Maq}/>
+          <Route path='jadidlar-uz/Navbar_Hik' Component={Nav_Hik}/>
+          <Route path='jadidlar-uz/til_imlo/:tab' Component={til_imlo} />
+          <Route path='jadidlar-uz/turkiston_muxtoriyati/:tab' Component={turkiston_muxtoriyati}/>
+          <Route path='jadidlar-uz/yangiliklar' Component={yangiliklar}/>
+          <Route path='jadidlar-uz/seminarlar' Component={seminarlar}/>
+          <Route path='jadidlar-uz/yiginlar' Component={yiginlar}/>
+          <Route path='jadidlar-uz/voqealar/:tab' Component={Voqealar}/>
         </Route>
       </Routes>
     </>
