@@ -39,7 +39,7 @@ export default function Kor_esht_oqi() {
             
         </Tab2>
         {activePanel()}
-        <hr className='w-full  bg-gray-500' />
+        <hr className='w-full  bg-gray-500'/>
     </div>
   )
 }
